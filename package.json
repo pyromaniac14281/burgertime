@@ -1,28 +1,24 @@
 {
-  "name": "BurgerTime",
+  "name": "Burger",
   "version": "1.0.0",
-  "description": "12th Homework Assignment for UCI Coding Bootcamp - create a burger logger with MySQL, Node, Express, Handlebars and ORM.",
+  "description": "Burger logger with MySQL, Node, Express, Handlebars and a homemade ORM",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pyromaniac14281/BurgerTime.git"
+    "url": "git+https://github.com/pyromaniac14281/burgertime.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Geoff Goodwin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pyromaniac14281/BurgerTime/issues"
+    "url": "https://github.com/pyromaniac14281/burgertime/issues"
   },
-  "homepage": "https://github.com/pyromaniac14281/BurgerTime#readme",
+  "homepage": "https://github.com/pyromaniac14281/burgertime#readme",
   "dependencies": {
-    "body-parser": "^1.18.2",
-    "express": "^4.16.2",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
-    "method-override": "^2.3.10",
     "mysql": "^2.15.0"
   }
-}
